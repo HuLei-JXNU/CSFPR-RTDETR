@@ -1,0 +1,13 @@
+# # dataset path
+path: F:\datasets_yaogan\AI-TOD
+train: train
+val:  val
+test: test
+
+
+nc : 8
+names :  [
+    'airplane', 'bridge', 'storage-tank', 'ship', 'swimming-pool', 'vehicle', 'person',
+              'wind-mill'
+]
+

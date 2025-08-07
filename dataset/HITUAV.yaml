@@ -1,0 +1,9 @@
+# # dataset path
+path: F:\datasets_yaogan\HIT-UAV-yolo
+train: train
+val:  val
+test: test
+
+
+nc : 5
+names :  ["Person", "Car", "Bicycle", "OtherVehicle", "DontCare"]
