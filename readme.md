@@ -3,6 +3,16 @@
 
 The corresponding paper title for this project is “CSFPR-RTDETR : Real-Time Small Object Detection Network for UAV Images Based on Cross Spatial Frequency Domain and Position Relation”.
 
+## Installation
+
+```
+conda create -n CSFPR python==3.11
+conda activate CSFPR
+pip install torch==2.1.0 torchvision==0.16.0 torchaudio==2.1.0 --index-url https://download.pytorch.org/whl/cu121
+pip install -r requirements.txt
+pip install -e .
+```
+
 ## Train
 
 Single GPU training
